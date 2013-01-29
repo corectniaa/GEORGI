@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="G.Georgiev"/>
+    <meta charset="utf-8" />
+    <title>Btv</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+					<li id="firstli"><a id="firsta" href="#">Новините</a>
+                        <ul>
+                          <li><a id="select" href="#">Интернет новини - 13.07.2010г.</a></li>
+					      <li><a href="#">Проливни дъждове в Дания, Китай и Индия, необичайни горещини в Иран</a></li>
+					      <li><a href="#">Над 200 хектара горят на територията на бивш военен полигон в Германия</a></li>
+					      <li><a href="#">23-ма ранени при сблъсък на два пътнически влака в Полша</a></li>
+					      <li><a href="#">Диференцират от догодина минималния осигурителен доход за самоосигуряващи се</a></li>
+				        </ul>
+					</li>
+					<li><a href="#">Спорт</a></li>
+					<li><a href="#">Емисии</a></li>
+					<li><a href="#">Любопитно</a></li>
+					<li><a href="#">Аз, репортерът</a></li>
+					<li><a href="#">Тази сутрин</a></li>
+				</ul>
+        </div>
+         <img src="img/btv.PNG" alt="Btv"/>
+    </header>
+</body>
+</html>
