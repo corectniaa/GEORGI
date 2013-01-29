@@ -1,0 +1,98 @@
+body, header, div, ul, li {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(30,55,65);
+    width: 688px;
+    height: 365px;
+    border: 2px solid rgb(51,125,143);
+    border-radius: 4px;
+    position:relative;
+    overflow-y:hidden;
+}
+.nav ul {
+    list-style: none;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+ .nav ul li {
+    float: left;
+    width:auto;
+    background-color:rgb(75,95,103);
+    border-right:1px solid rgb(30,55,65);
+    position:relative;
+    top:9px;
+    line-height:34px; 
+ }
+  .nav ul li a {
+    padding-left: 15px;
+    padding-right: 16px;
+  }
+  #firstli {
+    width: 85px;
+    background-color: rgb(30,55,65);
+  }
+    #firstli a {
+        padding-left: 10px;
+    }
+    #firsta {
+        color: white;
+    }
+    .nav ul li ul li {
+        float: none;
+        width:263px;
+        height:auto;
+        text-align:left;
+        background-color:rgb(30,55,65);
+        border-top:1px solid rgb(75,95,103);
+        border-left:none;
+        line-height:15px;
+    }
+        .nav ul li ul li:first-of-type {
+            height: 37px;
+        }
+          .nav ul li ul li a {
+            width: 244px;
+            text-align:start;
+            padding-left: 15px;
+            padding-right: 10px;
+            padding-top:13px;
+            padding-bottom:13px;
+          }
+          .nav ul li ul li a:last-of-type {
+            padding-bottom:12px;
+          }
+          .nav ul li ul li a:hover,.nav ul li ul li:first-child {
+            background-color: rgb(0,150,140);
+            color: white;
+            text-decoration:none;
+          }
+           #select {
+            color: white;
+          }
+      .nav a {
+        text-decoration: none;
+        color:rgb(161,173,178);
+        font: 11px Arial;
+        font-weight:600
+      }
+      .nav li ul li a {
+        font: 12px  Arial;
+        font-weight:600;
+        display:block;
+      }
+.nav li ul {
+    position: absolute;
+    top: 39px;
+    left: 0px;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+img {
+    position:absolute;
+    top:57px;
+    left:263px;
+}
